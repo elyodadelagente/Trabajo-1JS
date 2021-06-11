@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>ejer3</title>
+	<meta charset="utf-8" />
+</head>
+<body>
+	  <script>
+
+        let suma=0;
+
+        do{
+
+            let num=parseInt(prompt("Ingrese un numero"));
+
+            if(Number(num)==num){
+                suma=suma+num;
+            }
+            else{ 
+                alert("Ingrese un numero, no una letra");
+            }
+
+        }while(confirm("Quiere continuar?"));
+
+        document.write(suma);
+
+    </script>
+
+		</body>
+</html>
